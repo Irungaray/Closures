@@ -7,15 +7,18 @@ Como el título dice, los Closures en JavaScript siempre fueron algo misteriosos
 
 Recientemente fui a una charla donde alguien me lo explicó de manera tal que finalmente lo entendí. Ahora, intentaré explicarlo de la misma manera. Doy los creditos a los muchachos de CodeSmith y su serie "JavaScript: The Hard Parts".
 
-##**Antes de que empecemos**
+## **Antes de que empecemos**
 
-Es importante entender algunos conceptos antes de entender realmente los Closures. Uno de ellos es el ** *Execution Context* **.
+Es importante entender algunos conceptos antes de entender realmente los Closures. Uno de ellos es el ***Execution Context***.
 
 En el siguiente artículo encontrarás buenas definiciones sobre el Execution Context. Citandolo:
 
 > Cuando corres código en JavaScript, el *enviroment* en el que corre es muy importante, y es evaluado de UNA de estas maneras:
 
-> ** *Global Code* **  El *enviroment* por defecto en el que tu código es ejecutado por primera vez.
-> ** *Function Code* ** Cuando el flujo de ejecución entra en el cuerpo de una función.
+> ***Global Code***  El *enviroment* por defecto en el que tu código es ejecutado por primera vez.
+
+> ***Function Code*** Cuando el flujo de ejecución entra en el cuerpo de una función.
+
 > *(...)*
-> *(...)*, entonces, pensemos en el termino *execution context* como el *enviroment*/**scope** en el que el actual código está siendo evaluado.
+
+> *(...)*, entonces, pensemos en el termino *execution context* como el *enviroment*/***scope*** en el que el actual código está siendo evaluado.
